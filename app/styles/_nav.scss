@@ -12,9 +12,6 @@ nav {
         margin-top: 15px;
     }
     &>div.container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         &::after,
         &::before {
             content: none;
