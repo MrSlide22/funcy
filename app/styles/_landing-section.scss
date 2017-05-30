@@ -1,0 +1,29 @@
+.landing-section {
+    &:nth-child(2n) {
+        background-color: #f3f5f7;
+    }
+    text-align: center;
+    padding: 72px 10px 78px;
+    h3 {
+        margin: 0 auto;
+        max-width: 740px;
+        color: $main-text-color;
+        padding-bottom: 42px;
+    }
+    .step {
+        text-align: center;
+        h4 {
+            padding: 35px 0 12px;
+        }
+        img {
+            max-width: 100%;
+        }
+        p {
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 400;
+            padding: 0 10px;
+            color: $light-text-color;
+        }
+    }
+}

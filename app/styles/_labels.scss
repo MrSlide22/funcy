@@ -1,0 +1,26 @@
+.label {
+    background-color: transparent!important;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.label-default {
+    border: 1px solid #777;
+    color: #777;
+}
+
+.label-primary {
+    border: 1px solid #337ab7;
+    color: #337ab7!important;
+}
+
+a.label-default:hover {
+    border: 1px solid #999;
+    color: #999;
+}
+
+a.label-primary:hover {
+    border: 1px solid rgba(71, 135, 197, 0.6);
+    color: #427fbb!important;
+}

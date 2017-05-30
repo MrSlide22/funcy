@@ -1,0 +1,27 @@
+#articles article {
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 0;
+    margin-bottom: 10px;
+    &>.panel-body {
+        padding: 0;
+        &>div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 14px;
+            a {
+                font-weight: bold;
+                color: $title-color;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    &>.panel-footer {
+        background-color: #fff;
+        border-top: 1px solid #fbfbfb;
+    }
+}

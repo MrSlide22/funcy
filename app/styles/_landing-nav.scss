@@ -1,0 +1,40 @@
+#landing-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 22px 0;
+    z-index: $z-5;
+    &>.container {
+        #nav-logo {
+            margin-top: 0px;
+        }
+        .menu-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .navbar-toggle {
+                display: inline-block;
+                .icon-bar {
+                    background-color: $main-text-color;
+                    transition: margin 0.2s;
+                }
+            }
+        }
+    }
+    a {
+        color: $main-text-color;
+        text-transform: uppercase;
+        font-weight: bold;
+        &:hover {
+            text-decoration: none;
+            .icon-bar {
+                margin-top: 2px;
+                background-color: red;
+            }
+            .icon-bar:first-of-type {
+                margin-top: 3px;
+            }
+        }
+    }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My FANCY</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- build:css(.tmp) /styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+</head>
+
+<body>
+    <nav id="landing-nav">
+        <div class="container">
+            <a href="#" id="nav-logo"></a>
+            <a href="#" class="menu-btn">
+                <span>Menu</span>
+                <button type="button" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </a>
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <section class="banner">
+        <h2>
+            <small>Descubre y compra artículos increíbles</small>
+            <span>La Mezcla Perfecta</span>
+        </h2>
+        <img src="../assets/img/international_browser.png" alt="">
+    </section>
+    <section class="landing-section">
+        <div class="container">
+            <div class="row">
+                <h3>Funcy es el lugar para descubrir y comprar artículos geniales, escogidos por nuestra comunidad.</h3>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 step">
+                    <img src="../assets/img/collect.png" alt="colecciona y comparte">
+                    <h4>Colecciona y Comparte</h4>
+                    <p>Funcy your favourite items, and earn credit for sharing with your friends.</p>
+                </div>
+                <div class="col-sm-4 step">
+                    <img src="../assets/img/buy.png" alt="comprar en funcy">
+                    <h4>Compra en Funcy</h4>
+                    <p>One app. Thousands of stores. Millons of products.</p>
+                </div>
+                <div class="col-sm-4 step">
+                    <img src="../assets/img/gift.png" alt="regala con funcy">
+                    <h4>Regala con Funcy</h4>
+                    <p>Find the perfect gifts for friends and family on Funcy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="landing-section">
+        <div class="row">
+            <h3>Compra de forma global</h3>
+        </div>
+        <div id="map">
+
+        </div>
+    </section>
+    <!-- build:js(.) /scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js({.,.tmp,app}) scripts/scripts.js -->
+    <!-- include: "type ": "js ", "files ": ["scripts/**/*.js "], "baseUrl ": "/ " -->
+    <!-- endbuild -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDD2C-xXYCOeRZDxRzUYfnrFZS1II1tfRk&libraries=places&callback=initMap" async defer></script>
+</body>
+
+</html>

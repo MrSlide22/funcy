@@ -1,0 +1,18 @@
+{
+    "name": "myfancy",
+    "description": "Fancy inspirated web",
+    "main": "index.html",
+    "keywords": [
+        "fancy",
+        "funcy",
+        "bablemcamp"
+    ],
+    "authors": [
+        "Pablo Aragón Moreno <pablo.aragon@babel.es>"
+    ],
+    "license": "MIT",
+    "homepage": "",
+    "dependencies": {
+        "bootstrap-sass": "^3.3.7"
+    }
+}

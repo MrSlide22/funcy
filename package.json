@@ -1,0 +1,35 @@
+{
+    "name": "myfancy",
+    "version": "1.0.0",
+    "description": "",
+    "main": "Gruntfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "node-sass styles/main.scss > styles/main.css"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "grunt": "^1.0.1",
+        "grunt-autoprefixer": "^3.0.4",
+        "grunt-contrib-clean": "^1.1.0",
+        "grunt-contrib-concat": "^1.0.1",
+        "grunt-contrib-connect": "^1.0.2",
+        "grunt-contrib-copy": "^1.0.0",
+        "grunt-contrib-cssmin": "^2.2.0",
+        "grunt-contrib-htmlmin": "^2.4.0",
+        "grunt-contrib-imagemin": "^1.0.1",
+        "grunt-contrib-jshint": "^1.1.0",
+        "grunt-contrib-uglify": "^3.0.1",
+        "grunt-contrib-watch": "^1.0.0",
+        "grunt-filerev": "^2.3.1",
+        "grunt-include-source": "^1.1.0",
+        "grunt-sass": "^2.0.0",
+        "grunt-usemin": "^3.1.1",
+        "grunt-wiredep": "^3.0.1",
+        "jshint-stylish": "^2.2.1",
+        "load-grunt-tasks": "^3.5.2",
+        "sass-lint": "^1.10.2",
+        "time-grunt": "^1.4.0"
+    }
+}

@@ -1,0 +1,23 @@
+nav {
+    font-size: $base-font-size;
+    &.navbar-default {
+        background-color: #fff;
+    }
+    #nav-logo {
+        display: inline-block;
+        width: 92px;
+        height: 18px;
+        background-position: -20px 0;
+        background-image: url(../assets/icons/icons.png);
+        margin-top: 15px;
+    }
+    &>div.container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &::after,
+        &::before {
+            content: none;
+        }
+    }
+}

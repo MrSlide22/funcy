@@ -1,0 +1,35 @@
+@import 'normalize';
+// bower:scss
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+@import 'variables';
+@import 'responsive';
+@import 'typo';
+//list scss
+@import 'main-list';
+@import 'nav';
+@import 'trending-panel';
+@import 'social-aside';
+@import 'article';
+@import 'labels';
+//landing scss
+@import 'landing-nav';
+@import 'landing-banner';
+@import 'landing-section';
+.funcy-me {
+    display: inline-block;
+    cursor: pointer;
+    &::before {
+        display: inline-block;
+        background-image: url(../assets/icons/funcy-default.png);
+        background-size: 16px 16px;
+        background-repeat: no-repeat;
+        content: '';
+        height: 16px;
+        width: 16px;
+        margin-top: -3px;
+        margin-right: 5px;
+        margin-bottom: -4px;
+        margin-left: 0px;
+    }
+}
