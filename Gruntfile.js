@@ -27,7 +27,7 @@ module.exports = function(grunt) {
             livereload: {
                 options: {
                     open: true,
-                    base: ['.tmp', '.', 'app']
+                    base: ['.tmp', '.', 'bower_components', 'app']
                 }
             },
             dist: {
@@ -185,7 +185,10 @@ module.exports = function(grunt) {
         },
 
         useminPrepare: {
-            html: '<%= appConfig.dist %>/list.html',
+            html: [
+                '<%= appConfig.dist %>/list.html',
+                '<%= appConfig.dist %>/landing.html'
+            ],
             options: {
                 dest: '<%= appConfig.dist %>',
                 flow: {

@@ -3,7 +3,6 @@
 
 <head>
     <title>My FANCY</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- bower:css -->
     <!-- endbower -->
     <!-- build:css(.tmp) /styles/main.css -->
@@ -12,7 +11,7 @@
 </head>
 
 <body class="main-list">
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top list-navbar">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -35,7 +34,7 @@
                     </form>
                 </div>
                 <div class="col-lg-6 col-md-4 col-sm-2" id="logo-container">
-                    <a id="nav-logo"></a>
+                    <a class="funcy-logo"></a>
                 </div>
                 <ul class="nav navbar-nav col-lg-3 col-md-4 col-sm-5">
                     <li><a href="#">Join Fancy</a></li>
@@ -95,95 +94,8 @@
             </dl>
         </aside>
         <main class="col-sm-9 col-md-6 container-fluid" id="articles">
-            <div class="row">
-                <div class="col-md-12">
-                    <article class="panel">
-                        <div class="panel-body">
-                            <picture>
-                                <source srcset="https://dummyimage.com/900x900/cccccc/ffffff.png&text=xs" media="(max-width: 768px)">
-                                <source srcset="https://dummyimage.com/900x900/cccccc/ffffff.png&text=sm" media="(min-width: 769px) and (max-width: 992px)">
-                                <source srcset="https://dummyimage.com/900x900/cccccc/ffffff.png&text=md" media="(min-width: 993px) and (max-width: 1200px)">
-                                <img class="img-responsive" src="https://dummyimage.com/900x900/cccccc/ffffff.png&text=lg">
-                            </picture>
-                            <div>
-                                <a href="#">Title</a>
-                                <a class="label label-primary pull-right">$1,750</a>
-                            </div>
-                        </div>
-                        <div class="panel-footer">
-                            <a class="label label-default funcy-me">
-                                17k
-                            </a>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <article class="panel">
-                        <div class="panel-body">
-                            <picture>
-                                <source srcset="https://dummyimage.com/900x900/cccccc/ffffff.png&text=xs" media="(max-width: 768px)">
-                                <source srcset="https://dummyimage.com/900x900/cccccc/ffffff.png&text=sm" media="(min-width: 769px) and (max-width: 992px)">
-                                <source srcset="https://dummyimage.com/900x900/cccccc/ffffff.png&text=md" media="(min-width: 993px) and (max-width: 1200px)">
-                                <img class="img-responsive" src="https://dummyimage.com/900x900/cccccc/ffffff.png&text=lg">
-                            </picture>
-                            <div>
-                                <a href="#">Title</a>
-                                <span class="label label-primary pull-right">$1,750</span>
-                            </div>
-                        </div>
-                        <div class="panel-footer">
-                            <span class="label label-default funcy-me">
-                                17k
-                            </span>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6">
-                    <article class="panel">
-                        <div class="panel-body">
-                            <picture>
-                                <source srcset="https://dummyimage.com/900x900/cccccc/ffffff.png&text=xs" media="(max-width: 768px)">
-                                <source srcset="https://dummyimage.com/900x900/cccccc/ffffff.png&text=sm" media="(min-width: 769px) and (max-width: 992px)">
-                                <source srcset="https://dummyimage.com/900x900/cccccc/ffffff.png&text=md" media="(min-width: 993px) and (max-width: 1200px)">
-                                <img class="img-responsive" src="https://dummyimage.com/900x900/cccccc/ffffff.png&text=lg">
-                            </picture>
-                            <div>
-                                <a href="#">Title</a>
-                                <span class="label label-primary pull-right">$1,750</span>
-                            </div>
-                        </div>
-                        <div class="panel-footer">
-                            <span class="label label-default funcy-me">
-                                17k
-                            </span>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <article class="panel">
-                        <div class="panel-body">
-                            <picture>
-                                <source srcset="https://dummyimage.com/900x900/cccccc/ffffff.png&text=xs" media="(max-width: 768px)">
-                                <source srcset="https://dummyimage.com/900x900/cccccc/ffffff.png&text=sm" media="(min-width: 769px) and (max-width: 992px)">
-                                <source srcset="https://dummyimage.com/900x900/cccccc/ffffff.png&text=md" media="(min-width: 993px) and (max-width: 1200px)">
-                                <img class="img-responsive" src="https://dummyimage.com/900x900/cccccc/ffffff.png&text=lg">
-                            </picture>
-                            <div>
-                                <a href="#">Title</a>
-                                <span class="label label-primary pull-right">$1,750</span>
-                            </div>
-                        </div>
-                        <div class="panel-footer">
-                            <span class="label label-default funcy-me">
-                                17k
-                            </span>
-                        </div>
-                    </article>
-                </div>
+            <div class="row" id="anuncios-list">
+                <img src="../assets/icons/ring.svg" class="anuncios-loader" alt="">
             </div>
         </main>
         <aside class="col-md-3" id="social-aside">
@@ -202,6 +114,65 @@
             </div>
         </aside>
     </div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <div class="panel">
+                                <div class="panel-body" id="modal-main-image">
+                                </div>
+                                <div class="panel-footer">
+                                    <div class="row">
+                                        <div class="col-xs-4" id="modal-images">
+                                        </div>
+                                        <div class="col-xs-8">
+                                            <p><strong>Descripción</strong></p>
+                                            <p id="modal-description"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4" id="modal-product-details">
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <h4 id="modal-name">Título producto</h4>
+                                    <h5><span id="modal-price">150</span><small id="modal-currency">USD</small></h5>
+                                    <h5><small>Approximately £116 GBP</small></h5>
+                                    <button class="btn btn-success form-control">Add to Cart</button>
+                                </div>
+                                <div class="panel-body">
+                                    <a class="label label-default funcy-me anuncio-likes" id="modal-likes">
+                                        17k
+                                    </a>
+                                </div>
+                                <div class="panel-footer">
+                                    <div class="panel-footer-right-btn">
+                                        <span class="glyphicon glyphicon-share-alt"></span> Share
+                                    </div>
+                                    <div class="panel-footer-left-btn">
+                                        <span class="glyphicon glyphicon-plus"></span> List
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="row">
+                        <h4>You may also Funcy</h4>
+                        <h4 class="light"> Recently viewed</h4>
+                    </div>
+                    <div class="row" id="related">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- build:js(.) /scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
@@ -210,7 +181,8 @@
     <!-- endbuild -->
 
     <!-- build:js({.,.tmp,app}) scripts/scripts.js -->
-    <!-- include: "type ": "js ", "files ": ["scripts/**/*.js "], "baseUrl ": "/ " -->
+    <!-- include: "type": "js", "files": ["scripts/list/**/*.js"], "baseUrl": "/" -->
+    <!-- include: "type": "js", "files": ["scripts/*.js"], "baseUrl": "/" -->
     <!-- endbuild -->
 </body>
 

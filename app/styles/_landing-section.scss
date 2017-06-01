@@ -1,6 +1,6 @@
 .landing-section {
     &:nth-child(2n) {
-        background-color: #f3f5f7;
+        background-color: $grey-background-color;
     }
     text-align: center;
     padding: 72px 10px 78px;
@@ -28,5 +28,26 @@
     }
     .map {
         height: 520px;
+        pointer-events: none;
+        margin-bottom: -78px;
+    }
+    &.beyond {
+        padding: 136px 20px 160px;
+        h3 {
+            text-align: left;
+        }
+        p {
+            text-align: left;
+            font-size: 15px;
+            line-height: 24px;
+        }
+    }
+    .device-icon {
+        background-image: url(../assets/img/international_icon.3a91208928d9.png);
+        display: block;
+        width: 320px;
+        height: 46px;
+        background-position: -470px -520px;
+        margin-top: 28px;
     }
 }

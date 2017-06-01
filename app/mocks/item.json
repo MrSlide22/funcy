@@ -1,0 +1,27 @@
+{
+    "id": 1,
+    "name": "Golder Clip by X",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+    "price": "30",
+    "currency": "USD",
+    "created_at": 1424028980,
+    "images": {
+        "lg": [
+            "http://dummyimage.com/900x900/cccccc/ffffff.png&text=a",
+            "http://dummyimage.com/900x900/cccccc/ffffff.png&text=b",
+            "http://dummyimage.com/900x900/cccccc/ffffff.png&text=c"
+        ],
+        "md": [
+            "http://dummyimage.com/600x600/cccccc/ffffff.png&text=a",
+            "http://dummyimage.com/600x600/cccccc/ffffff.png&text=b",
+            "http://dummyimage.com/600x600/cccccc/ffffff.png&text=c"
+        ],
+        "xs": [
+            "http://dummyimage.com/300x300/cccccc/ffffff.png&text=a",
+            "http://dummyimage.com/300x300/cccccc/ffffff.png&text=b",
+            "http://dummyimage.com/300x300/cccccc/ffffff.png&text=c"
+        ]
+    },
+    "likes": 34,
+    "liked": false
+}

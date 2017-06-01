@@ -12,10 +12,13 @@
 @import 'social-aside';
 @import 'article';
 @import 'labels';
+@import 'modal';
 //landing scss
+@import 'landing-main';
 @import 'landing-nav';
 @import 'landing-banner';
 @import 'landing-section';
+@import 'landing-footer';
 .funcy-me {
     display: inline-block;
     cursor: pointer;
@@ -32,4 +35,12 @@
         margin-bottom: -4px;
         margin-left: 0px;
     }
+}
+
+.funcy-logo {
+    display: inline-block;
+    width: 92px;
+    height: 18px;
+    background-position: -20px 0;
+    background-image: url(../assets/icons/icons.png);
 }
