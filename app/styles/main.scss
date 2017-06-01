@@ -19,6 +19,7 @@
 @import 'landing-banner';
 @import 'landing-section';
 @import 'landing-footer';
+@import 'online';
 .funcy-me {
     display: inline-block;
     cursor: pointer;
@@ -43,4 +44,22 @@
     height: 18px;
     background-position: -20px 0;
     background-image: url(../assets/icons/icons.png);
+}
+
+#cookies-bar {
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid $grey-background-color;
+    transform: translateY(200px);
+    transition: transform 0.5s;
+    p {
+        margin: 0;
+    }
+    &.show {
+        transform: translateY(0px);
+    }
 }

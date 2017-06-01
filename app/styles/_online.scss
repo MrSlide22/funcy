@@ -1,0 +1,16 @@
+body {
+    &.offline {
+        filter: grayscale(100%);
+        img {
+            content: url(../assets/img/chrome-trex-dinosaur.jpg)!important;
+        }
+        a {
+            cursor: url(../assets/icons/offline-cursor.png), auto!important;
+        }
+        #articles {
+            .anuncio-article {
+                cursor: url(../assets/icons/offline-cursor.png), auto;
+            }
+        }
+    }
+}
